@@ -1,7 +1,15 @@
 export function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
-      <div className="bg-white dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 flex flex-row pb-16">
+      <div className="basis-1/2">
+        <img
+          className="basis-1/2 object-cover h-screen"
+          src="/cleaning-man.jpg"
+          alt=""
+        />
+      </div>
+
+      <div className="bg-white dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5 basis-1/2">
         <div>
           <span className="inline-flex items-center justify-center rounded-md bg-indigo-500 p-2 shadow-lg"></span>
         </div>
